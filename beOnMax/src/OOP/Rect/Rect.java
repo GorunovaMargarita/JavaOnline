@@ -1,16 +1,18 @@
 package OOP.Rect;
 
-public class Rect {
-  double weight;
-  double length;
-  void setDims (double weight,double length) {
-    this.weight = weight;
-    this.length = length;
+public class Rect extends Figure {
+
+  public Rect(double a, double b) {
+    super(a, b);
   }
-  double perimeter () {
-    return 2.0 * (weight + length);
+
+  public Rect(double size){
+    super(size,size);
   }
-  double square () {
-    return weight * length;
+
+  @Override
+  public double square() {
+    return getA()*getB();
   }
+
 }
