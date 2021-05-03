@@ -39,4 +39,10 @@ public class Box {
     System.out.println("Длина коробки: " + length + "; ширина коробки: " + width +
                       "; высота коробки: " + height + ". ");
   }
+
+  @Override
+  public String toString() {
+    String result = String.format("Ширина: %s\nДлина: %s\nДлина: %s", width,length,height);
+    return result;
+  }
 }

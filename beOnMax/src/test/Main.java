@@ -1,5 +1,7 @@
 package test;
 
+import OOP.Employee.Empoyee;
+
 public class Main {
   public static void main(String[] args) {
     int square = MyMath.square(20);
@@ -8,5 +10,7 @@ public class Main {
     System.out.println(length);
     int sum = MyMath.sum(1,2,3,5);
     System.out.println(sum);
+    Empty empty = new Empty();
+    empty.toString();
   }
 }

@@ -14,5 +14,14 @@ public class Main {
     box.showInfo();
     boxWeight.showInfo();
     boxWeight1.showInfo();
+    System.out.println(box);
+
+    double random = Math.random();
+    random*=6;
+    int randomInt = (int)random;
+    randomInt++;
+    int result = (int)(Math.random()*6+1);
+    System.out.println(result);
+
   }
 }
